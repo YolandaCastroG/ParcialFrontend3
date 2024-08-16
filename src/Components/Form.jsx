@@ -55,7 +55,6 @@ const Form = () => {
                         <input type="text" value={person.favoriteMovie} onChange={handleChangeFavoriteMovie} />
                         <button type='submit'>Enviar</button>
                     </form>
-                    {show ? <Message name={person.name} email={person.favorite} /> : null}
                     <button onClick={reset}>Reset form</button>
                 </>
             )}
